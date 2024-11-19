@@ -1,0 +1,46 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CH341DP - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/CH341DP.res" /d "_DEBUG" "D:\CC\TEMP\VC\TOOL\CH341DP10\CH341DPV13\CH341DP\src\CH341DP.rc"" 
+Creating temporary file "C:\DOCUME~1\tech12\LOCALS~1\Temp\RSP6.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/CH341DP.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\CC\TEMP\VC\TOOL\CH341DP10\CH341DPV13\CH341DP\src\CH341DP.C"
+"D:\CC\TEMP\VC\TOOL\CH341DP10\CH341DPV13\CH341DP\src\CH341IO.C"
+"D:\CC\TEMP\VC\TOOL\CH341DP10\CH341DPV13\CH341DP\src\MSHOW.C"
+]
+Creating command line "cl.exe @C:\DOCUME~1\tech12\LOCALS~1\Temp\RSP6.tmp" 
+Creating temporary file "C:\DOCUME~1\tech12\LOCALS~1\Temp\RSP7.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/CH341DP.pdb" /debug /machine:I386 /out:"Debug/CH341DP.exe" /pdbtype:sept 
+.\Debug\CH341DP.OBJ
+.\Debug\CH341IO.OBJ
+.\Debug\HEXBIN.OBJ
+.\Debug\MSHOW.OBJ
+.\Debug\CH341DP.res
+.\CH341DLL.LIB
+]
+Creating command line "link.exe @C:\DOCUME~1\tech12\LOCALS~1\Temp\RSP7.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+CH341DP.C
+CH341IO.C
+MSHOW.C
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/CH341DP.bsc"  .\Debug\CH341DP.SBR .\Debug\CH341IO.SBR .\Debug\HEXBIN.SBR .\Debug\MSHOW.SBR"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+CH341DP.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,291 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+// #include "afxres.h"
+#include "windows.h"
+
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+// LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+// #pragma code_page(936)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_CH341DP_DIALOG DIALOG DISCARDABLE  150, 100, 234, 106
+STYLE DS_MODALFRAME | DS_NOIDLEMSG | DS_3DLOOK | DS_CENTER | WS_MINIMIZEBOX | 
+    WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "CH341DP  V1.2.9"
+FONT 10, "system"
+BEGIN
+    PUSHBUTTON      "quit",IDC_QUIT,180,80,45,14,BS_FLAT
+    PUSHBUTTON      "Download",IDC_BUTTON_DOWN,120,80,45,14,BS_FLAT
+    CONTROL         "EEPROM",IDC_EPRAM,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    70,80,40,14
+    PUSHBUTTON      "Browse...",IDC_BUTTON_BROWER,10,80,45,14,BS_FLAT
+    COMBOBOX        IDC_MCU_MODEL,55,55,55,85,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "Config",IDC_SET_CONFIG,120,55,45,14,BS_FLAT
+    PUSHBUTTON      "Reset",IDC_RUNING,180,55,45,15,BS_FLAT
+    LTEXT           "Program prompts:",IDC_STATIC,10,25,35,10,SS_CENTERIMAGE | NOT 
+                    WS_GROUP
+    GROUPBOX        "",IDC_STATIC,5,0,225,45
+    LTEXT           "Choose an MCU:",IDC_STATIC,10,55,35,14,SS_CENTERIMAGE
+    GROUPBOX        "",IDC_STATIC,5,45,225,55
+    EDITTEXT        IDC_STATIC_PROMPT,50,25,175,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_TABSTOP
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,10,75,215,1
+    LTEXT           "Download Progress:",IDC_STATIC,10,10,40,10
+    CONTROL         "Progress1",IDC_DOWN_PROGRESS,"msctls_progress32",
+                    WS_BORDER,50,10,175,10
+END
+
+IDD_SETCON_DIALOG DIALOGEX 0, 0, 369, 115
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Encryption settings Config"
+FONT 10, "system", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Cancel",IDC_CLOSE,200,95,35,15
+    PUSHBUTTON      "Write Config",IDC_WRITE_CONG,145,95,35,15
+    PUSHBUTTON      "Read Config",IDC_READ_CONG,95,95,35,15
+    PUSHBUTTON      "None",IDC_CLR_ALL,50,95,30,15
+    PUSHBUTTON      "All",IDC_SET_ALL,5,95,30,15
+    CONTROL         "BootLock12 ",IDC_CHECK_BLOCk12,"Button",BS_AUTOCHECKBOX,
+                    10,15,50,10
+    CONTROL         "BootLock11 ",IDC_CHECK_BLOCk11,"Button",BS_AUTOCHECKBOX,
+                    65,15,50,10
+    CONTROL         "BootLock02",IDC_CHECK_BLOCk02,"Button",BS_AUTOCHECKBOX,
+                    120,15,50,10
+    CONTROL         "BootLock01 ",IDC_CHECK_BLOCk01,"Button",BS_AUTOCHECKBOX,
+                    180,15,50,10
+    CONTROL         "Lock2 ",IDC_CHECK_LOCK2,"Button",BS_AUTOCHECKBOX,235,15,
+                    30,10
+    CONTROL         "Lock1",IDC_CHECK_LOCK1,"Button",BS_AUTOCHECKBOX,275,15,
+                    30,10
+    CONTROL         "RSTDISBL",IDC_CHECK_RSTD,"Button",BS_AUTOCHECKBOX,10,45,
+                    45,10
+    CONTROL         "WDTON  ",IDC_CHECK_WDTON,"Button",BS_AUTOCHECKBOX,60,45,
+                    35,10
+    CONTROL         "CKOPT ",IDC_CHECK_CKOPT,"Button",BS_AUTOCHECKBOX,135,45,
+                    35,10
+    CONTROL         "EESAVE ",IDC_CHECK_EESAVE,"Button",BS_AUTOCHECKBOX,170,
+                    45,35,10
+    CONTROL         "SPIEN",IDC_CHECK_SPIEN,"Button",BS_AUTOCHECKBOX,100,45,
+                    30,10
+    CONTROL         "BOOTRST ",IDC_CHECK_BOOTRST,"Button",BS_AUTOCHECKBOX,
+                    315,45,45,10
+    CONTROL         "BOOTSZ1 ",IDC_CHECK_BOOTSZ1,"Button",BS_AUTOCHECKBOX,
+                    215,45,40,10
+    CONTROL         "BOOTSZ0 ",IDC_CHECK_BOOTSZ0,"Button",BS_AUTOCHECKBOX,
+                    265,45,45,10
+    CONTROL         "BODLEVEL ",IDC_CHECK_BODLEVEL,"Button",BS_AUTOCHECKBOX,
+                    10,61,45,10
+    CONTROL         "BODEN ",IDC_CHECK_BODEN,"Button",BS_AUTOCHECKBOX,60,61,
+                    35,10
+    CONTROL         "SUT1 ",IDC_CHECK_SUT1,"Button",BS_AUTOCHECKBOX,100,61,
+                    30,10
+    CONTROL         "SUT0",IDC_CHECK_SUT0,"Button",BS_AUTOCHECKBOX,135,61,34,
+                    10
+    CONTROL         "CKSEL1",IDC_CHECK_CKSEL1,"Button",BS_AUTOCHECKBOX,265,
+                    61,35,10
+    CONTROL         "CKSEL0",IDC_CHECK_CKSEL0,"Button",BS_AUTOCHECKBOX,315,
+                    61,35,10
+    CONTROL         "CKSEL3 ",IDC_CHECK_CKSEL3,"Button",BS_AUTOCHECKBOX,170,
+                    61,35,10
+    CONTROL         "CKSEL2",IDC_CHECK_CKSEL2,"Button",BS_AUTOCHECKBOX,215,
+                    61,35,10
+    GROUPBOX        "Config",IDC_STATIC,5,35,360,55
+    GROUPBOX        "Encrypt Setup",IDC_STATIC,5,5,305,25
+    CONTROL         "M103C ",IDC_CHECK_M103C,"Button",BS_AUTOCHECKBOX,60,75,
+                    35,10
+    CONTROL         "WDTON ",IDC_CHECK_WDTON1,"Button",BS_AUTOCHECKBOX,100,
+                    75,35,10
+    CONTROL         "NOUSE",IDC_EXPAND_SET2,"Button",BS_AUTOCHECKBOX,10,75,
+                    35,10
+END
+
+IDD_AT89SX_SET DIALOGEX 0, 0, 169, 70
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Config"
+FONT 10, "system", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Cancel",IDC_CLOSE,125,50,40,15
+    PUSHBUTTON      "Write Config",IDC_WRITE_CONG,65,50,40,15
+    PUSHBUTTON      "Read Config",IDC_READ_CONG,5,50,40,15
+    CONTROL         "No Lock Bit",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,10,
+                    15,50,10
+    CONTROL         "Lock LB1",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,85,15,
+                    50,10
+    CONTROL         "Lock LB1,LB2 ",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,
+                    10,30,63,10
+    CONTROL         "Lock LB1,LB2,LB3",IDC_RADIO4,"Button",
+                    BS_AUTORADIOBUTTON,85,30,77,10
+    GROUPBOX        "Lock Bits",IDC_STATIC,5,5,160,40
+END
+
+IDD_SET DIALOG DISCARDABLE  0, 0, 141, 58
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Setup"
+FONT 10, "System"
+BEGIN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_CH341DP_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 228
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 101
+    END
+
+    IDD_SETCON_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 362
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 108
+    END
+
+    IDD_AT89SX_SET, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 162
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 63
+    END
+
+    IDD_SET, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 134
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 51
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""windows.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON    DISCARDABLE     "chip.ico"
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,3,0,0
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "wch.cn\0"
+            VALUE "FileDescription", "SPIDownload Tool \0"
+            VALUE "FileVersion", "1.3.0\0"
+            VALUE "InternalName", "\0"
+            VALUE "LegalCopyright", "Copyright (C) wch.cn 2007\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "CH341DP.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "CH341DP\0"
+            VALUE "ProductVersion", "1.0\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

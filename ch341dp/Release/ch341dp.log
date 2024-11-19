@@ -1,0 +1,40 @@
+﻿  CH341DP.C
+C:\Users\Administrator\Desktop\CH341a\CH341DPS\SOURCE\CH341DP.C(439,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\CH341a\CH341DPS\SOURCE\CH341DP.C(441,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\CH341a\CH341DPS\SOURCE\CH341DP.C(545,10): warning C4996: 'memicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _memicmp. See online help for details.
+C:\Users\Administrator\Desktop\CH341a\CH341DPS\SOURCE\CH341DP.C(558,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\CH341a\CH341DPS\SOURCE\CH341DP.C(564,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\CH341a\CH341DPS\SOURCE\CH341DP.C(571,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\CH341a\CH341DPS\SOURCE\CH341DP.C(858,25): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\CH341a\CH341DPS\SOURCE\CH341DP.C(863,25): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\CH341a\CH341DPS\SOURCE\CH341DP.C(981,21): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\CH341a\CH341DPS\SOURCE\CH341DP.C(1066,25): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\CH341a\CH341DPS\SOURCE\CH341DP.C(1071,25): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\CH341a\CH341DPS\SOURCE\CH341DP.C(1098,21): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\CH341a\CH341DPS\SOURCE\CH341DP.C(1511,13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\CH341a\CH341DPS\SOURCE\CH341DP.C(1533,13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\CH341a\CH341DPS\SOURCE\CH341DP.C(1496,5): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+C:\Users\Administrator\Desktop\CH341a\CH341DPS\SOURCE\CH341DP.C(1522,10): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\CH341a\CH341DPS\SOURCE\CH341DP.C(1556,14): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\CH341a\CH341DPS\SOURCE\CH341DP.C(1591,14): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  CH341IO.C
+  HEXBIN.C
+C:\Users\Administrator\Desktop\CH341a\CH341DPS\SOURCE\HEXBIN.C(61,44): warning C4477: 'sscanf' : format string '%2x' requires an argument of type 'unsigned int *', but variadic argument 1 has type 'UCHAR *'
+      C:\Users\Administrator\Desktop\CH341a\CH341DPS\SOURCE\HEXBIN.C(61,44):
+      consider using '%hhx' in the format string
+  
+C:\Users\Administrator\Desktop\CH341a\CH341DPS\SOURCE\HEXBIN.C(55,13): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\CH341a\CH341DPS\SOURCE\HEXBIN.C(61,17): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  MSHOW.C
+C:\Users\Administrator\Desktop\CH341a\CH341DPS\SOURCE\MSHOW.C(50,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\CH341a\CH341DPS\SOURCE\MSHOW.C(75,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\CH341a\CH341DPS\SOURCE\MSHOW.C(182,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\CH341a\CH341DPS\SOURCE\MSHOW.C(229,13): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\CH341a\CH341DPS\SOURCE\MSHOW.C(235,13): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\CH341a\CH341DPS\SOURCE\MSHOW.C(295,13): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\CH341a\CH341DPS\SOURCE\MSHOW.C(352,17): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\CH341a\CH341DPS\SOURCE\MSHOW.C(405,17): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\CH341a\CH341DPS\SOURCE\MSHOW.C(410,17): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Generating Code...
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification
+  ch341dp.vcxproj -> C:\Users\Administrator\Desktop\CH341a\CH341DPS\SOURCE\Release\ch341dp.exe
